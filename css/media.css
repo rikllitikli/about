@@ -1,12 +1,63 @@
 @media only screen and (max-width: 750px) {
 
+
     header {
         background-color: rgb(36, 47, 53, 70%);
         padding: 14px 0 18px;
     }
 
-    .menu {
-        display: none;
+    .paragraph {
+        font-size: 35px;
+        max-width: 687px;
+        margin: auto;
+        line-height: 46px;
+        margin-bottom: 303px;
+    }
+
+    .service {
+        display: block;
+    }
+
+    .service img {
+        width: 100%;
+    }
+
+    .service_content {
+        width: auto;
+        padding: 90px 86px 88px;
+        background: none;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .service_content h2 {
+        font-size: 84px;
+        margin-bottom: 176px;
+    }
+
+    .service_paragraph {
+        display: block;
+        font-size: 31px;
+        line-height: 56px;
+        max-width: 573px;
+        margin: auto;
+        margin-bottom: 176px;
+    }
+
+    .list {
+        font-size: 34px;
+        line-height: 57px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer p {
+        font-size: 30px;
+        line-height: 60px;
     }
 
 }

@@ -59,46 +59,55 @@ header div a {
     margin-bottom: 160px;
 }
 
-
-.human_servic {
+.service {
     display: flex;
     align-items: center;
 }
 
-.servic {
-    width: 100%;
+
+
+.service_content {
     background-color: #f9f9f9;
-    padding: 39px 75px 19px 58px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: inline-block;
+    padding: 48px 57px 52px;
+    width: 100%;
 }
 
-.servic h2 {
+.service h2 {
     color: #505d68;
     font-size: 45px;
-    margin-bottom: 92px;
     font-family: 'Open Sans';
     font-weight: 600;
+    margin-bottom: 92px;
 }
 
-.servic_paragraph {
-    max-width: 209px;
+.service_paragraph {
+    font-size: 17px;
+    line-height: 28px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    max-width: 208px;
     margin: auto;
-    font-size: 18px;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    line-height: 30px;
-    color: #505d68;
+    display: inline-block;
 }
 
-ul {
-    list-style: none;
-    line-height: 30px;
-    font-size: 18px;
-    color: #505d68;
+
+
+.list {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 28px;
     font-family: 'Open Sans';
     font-weight: 300;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
