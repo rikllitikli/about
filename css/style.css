@@ -58,3 +58,46 @@ header div a {
     line-height: 30px;
     margin-bottom: 160px;
 }
+
+
+.human_servic {
+    display: flex;
+    align-items: center;
+}
+
+.servic {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 39px 75px 20px 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.servic h2 {
+    color: #505d68;
+    font-size: 45px;
+    margin-bottom: 92px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.servic_paragraph {
+    max-width: 209px;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    line-height: 30px;
+    color: #505d68;
+}
+
+ul {
+    list-style: none;
+    line-height: 30px;
+    font-size: 18px;
+    color: #505d68;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
