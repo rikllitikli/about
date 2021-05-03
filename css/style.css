@@ -68,7 +68,7 @@ header div a {
 .servic {
     width: 100%;
     background-color: #f9f9f9;
-    padding: 39px 75px 20px 58px;
+    padding: 39px 75px 19px 58px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -97,6 +97,25 @@ ul {
     line-height: 30px;
     font-size: 18px;
     color: #505d68;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 41px 0 39px;
+}
+
+.footer {
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    color: #505d68;
+    font-size: 16px;
     font-family: 'Open Sans';
     font-weight: 300;
 }
